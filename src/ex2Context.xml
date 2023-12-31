@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="square" class="ex2.Square">
+        <property name="side" value="14" />
+    </bean>
+
+    <bean id="circle" class="ex2.Circle">
+        <property name="radius" value="5" />
+    </bean>
+    
+</beans>
